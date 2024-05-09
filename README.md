@@ -18,35 +18,34 @@ To access the admin dashboard, use the following credentials:
 
 ## Installation
 
-1. Clone the repository:
-   \`\`\`
+1. **Clone the repository:**
+   ```bash
    git clone https://github.com/So-Nita/amaya-coffee.git
-   \`\`\`
 2. Navigate to the project directory:
-   \`\`\`
+   ```bash
    cd amaya-coffee
-   \`\`\`
+    
 3. Install dependencies:
-   \`\`\`
+   ```bash
    composer install
-   \`\`\`
+    
 4. Set up environment variables:
    - Copy the \`.env.example\` file and rename it to \`.env\`.
    - Update the database configuration in the \`.env\` file with your MySQL credentials.
 5. Generate application key:
-   \`\`\`
+   ```bash
    php artisan key:generate
-   \`\`\`
+    
 6. Run migrations and seeders:
-   \`\`\`
+   ```bash
    php artisan migrate --seed
-   \`\`\`
+   
 7. Start the development server:
-   \`\`\`
+   ```bash
    php artisan serve
-   \`\`\`
+    
 8. Access the website in your browser at \`http://localhost:8000\`.
 
 ## Contributors
 
-- [So-Nita]([https://github.com/your-username](https://github.com/So-Nita))
+- [So-Nita](https://github.com/So-Nita)
